@@ -227,11 +227,6 @@ a{
 }
 #bloc-8 p{
 	font-size: 18px;
-	font-weight: 400;
-	font-family: Alef;
-}
-#bloc-8 h4{
-	font-size: 20px;
 }
 #bloc-9 p{
 	font-size: 18px;
@@ -419,9 +414,6 @@ button{
 	margin:0 0 0 5px}
 /* = Icons
 -------------------------------------------------------------- */
-.icon-sm{
-	font-size:18px!important;
-}
 .icon-md{
 	font-size:30px!important;
 }
@@ -600,6 +592,9 @@ iframe{
 .tc-white{
 	color:#FFFFFF!important;
 }
+.tc-celestial-blue{
+	color:#47A7E5!important;
+}
 .tc-outer-space{
 	color:#47454B!important;
 	!important}.tc-white-2{
@@ -683,16 +678,16 @@ iframe{
 	background-image:url("img/footer_lodyas.png");
 }
 .bg-footer-lodyas{
-	background-image:url('img/footer_lodyas.png');
+	background-image:url("img/footer_lodyas.png");
 }
 .bg-7{
-	background-image:url('img/7.jpg');
+	background-image:url("img/7.jpg");
 }
 .bg-footer-lodyas{
-	background-image:url('img/footer_lodyas.png');
+	background-image:url("img/footer_lodyas.png");
 }
 .bg-7084054777-8402646d01-o{
-	background-image:url('img/7084054777_8402646d01_o.jpg');
+	background-image:url("img/7084054777_8402646d01_o.jpg");
 }
 
 
