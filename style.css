@@ -8,7 +8,6 @@ body{
     background:#FFF;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 a:hover{text-decoration: none; cursor:pointer;}
 
@@ -208,6 +207,9 @@ a{
 	font-weight: 700;
 	font-family: 'PT Serif';
 }
+#bloc-4 p{
+	font-size: 18px;
+}
 #games h1{
 	font-weight: 400;
 	font-family: Ubuntu;
@@ -219,31 +221,31 @@ a{
 	font-weight: 400;
 	font-family: Ubuntu;
 }
-#bloc-6 h3{
+#bloc-8 h3{
 	font-size: 28px;
 }
-#bloc-6 p{
-	font-size: 18px;
-}
 #bloc-8 p{
-	font-size: 18px;
-}
-#bloc-9 p{
 	font-size: 18px;
 }
 #bloc-10 p{
 	font-size: 18px;
 }
-#bloc-12 p{
+#bloc-11 p{
 	font-size: 18px;
 }
-#bloc-13 p{
-	font-size: 16px;
+#bloc-12 p{
+	font-size: 18px;
 }
 #bloc-14 p{
 	font-size: 18px;
 }
-#bloc-17 p{
+#bloc-15 p{
+	font-size: 16px;
+}
+#bloc-16 p{
+	font-size: 18px;
+}
+#bloc-19 p{
 	font-size: 18px;
 }
 
@@ -336,7 +338,7 @@ a{
 .nav > li > .dropdown a{
 	background: none!important;
 	display: block;
-	padding: 15px 15px;
+	padding: 10px 15px;
 }
 
 nav .caret{
@@ -490,7 +492,7 @@ button{
 -------------------------------------------------------------- */
 .panel{
 	border:0!important;
-	box-shadow: 0 0 2px rgba(0,0,0,.4);
+	box-shadow: 0 0px 2px rgba(0,0,0,.4);
 }
 .panel-heading, .panel-footer{
 	background-color: inherit;
@@ -592,16 +594,16 @@ iframe{
 .tc-white{
 	color:#FFFFFF!important;
 }
+.tc-white-2{
+	color:#FEFFFF!important;
+}
 .tc-celestial-blue{
 	color:#47A7E5!important;
 }
 .tc-outer-space{
 	color:#47454B!important;
-	!important}.tc-white-2{
+	!important}.tc-white-3{
 	color:#FFFFFF!important;
-}
-.tc-white-3{
-	color:#FEFFFF!important;
 }
 /* Link colour styles */
 
@@ -689,18 +691,20 @@ iframe{
 .bg-7084054777-8402646d01-o{
 	background-image:url("img/7084054777_8402646d01_o.jpg");
 }
+.bg-footer-lodyas{
+	background-image:url('img/footer_lodyas.png');
+}
+.bg-Visual-Studio-2012-logo-and-wordmark-svg{
+	background-image:url('img/Visual_Studio_2012_logo_and_wordmark.svg.png');
+}
+.bg-Z{
+	background-image:url('img/Z.jpg');
+}
 
 
 
 /* = Mobile adjustments 
 -------------------------------------------------------------- */
-@media (max-width: 1024px)
-{
-    .bloc{
-        padding-left: 20px; 
-        padding-right: 20px;  
-    }
-}
 @media (max-width: 768px)
 {
     .container{width:100%;}
